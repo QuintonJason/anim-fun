@@ -1,0 +1,65 @@
+@font-face {
+  font-family: 'Privateer';
+  src: url('../fonts/privateerregular.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/privateerregular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/privateerregular.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/privateerregular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/privateerregular.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+
+h1,h2,h3,h4,h5,h6{
+  font-family: Privateer, serif;
+  letter-spacing: 0.08em;
+}
+
+// FIND A BODYCOPY FONT FROM GOOGLE FONT
+p{
+  font-family: 'Raleway', serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.raleway-normal{
+ font-family: 'Raleway', serif;
+ font-weight: 400;
+ font-style: normal; 
+}
+
+/*title*/
+
+.fa{
+  color: #00c200;
+  font-size: 100px;
+}
+.fa-balance-scale{
+  color: #666;
+  font-size: 200px;
+}
+
+.icons .icon-heart{
+	font-size: 2em;
+	color: #00c200;
+}
+/*nav*/
+#main-nav{
+	padding: 1.65em;
+    background: red;
+    display: inline-block;
+    /* text-align: center; */
+    list-style-type: none;
+    display: none;
+}
+
+#main-nav ul{
+	list-style-type: none;
+	padding-left: 0;
+}
+
+#main-nav li{
+	display: inline-block;
+}
+
+/*body*/
+
+/*footer*/
+
